@@ -27,11 +27,11 @@ export default function App() {
   return (
     <>
       <ul>
-        {items.map((cada,index)=> {
-          return (<li key={index}>{cada}</li>)
+        {items.map((cada)=> {
+          return (<li>{cada}</li>)
         })}
 
-        {items.map((cada,index) => (<li key={index}>{cada}</li>))}
+        {items.map((cada) => (<li>{cada}</li>))}
       </ul>
   
 
