@@ -27,12 +27,13 @@ export default function App() {
   return (
     <>
       <ul>
-        {items.map(cada => {
-          return (<li>{cada}</li>)
+        {items.map((cada,index)=> {
+          return (<li key={index}>{cada}</li>)
         })}
 
-        {items.map(cada => (<li>{cada}</li>))}
+        {items.map((cada,index) => (<li key={index}>{cada}</li>))}
       </ul>
+  
 
       <Button onClick={teste} startIcon={<FavoriteIcon/>} color="success">Teste</Button>
       <Button endIcon={<BlockIcon/>} color="warning" variant="outlined">Outro teste</Button>
