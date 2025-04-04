@@ -1,46 +1,20 @@
-import {Button} from "@mui/material";
-import {
-  Favorite as FavoriteIcon, 
-  Block as BlockIcon,
-} from "@mui/icons-material";
+import Cadastro from "./pages/Cadastro";
+import Listar from "./pages/Listar";
 
-function ListItem(props) {
-  return (
-    <li>
-      {props.children}
-    </li>
-  )
-}
+import { 
+  BrowserRouter, 
+  Route,
+  Routes
+} from "react-router-dom";
 
 export default function App() {
-  const teste = () => {
-    alert('oi som');
-  };
-
-  let items = [
-    'Cadastrar',
-    'Listar',
-    'Relatorios',
-    'Logout',
-  ];
-
   return (
-    <>
-      <ul>
-        {items.map(cada => {
-          return (<li>{cada}</li>)
-        })}
-
-        {items.map(cada => (<li>{cada}</li>))}
-      </ul>
-
-      <Button onClick={teste} startIcon={<FavoriteIcon/>} color="success">Teste</Button>
-      <Button endIcon={<BlockIcon/>} color="warning" variant="outlined">Outro teste</Button>
-      <Button color="error" variant="contained">Mais um teste</Button>
-
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<h1>Ola mundo</h1>}/>
+        <Route path="/listar" element={<Listar/>}/>
+        <Route path="/cadastro" element={<Cadastro/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
-
-
-
