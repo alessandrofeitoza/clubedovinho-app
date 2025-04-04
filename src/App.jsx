@@ -1,4 +1,5 @@
 import Cadastro from "./pages/Cadastro";
+import Julio from "./pages/Julio";
 import Listar from "./pages/Listar";
 
 import { 
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/" element={<h1>Ola mundo</h1>}/>
         <Route path="/listar" element={<Listar/>}/>
         <Route path="/cadastro" element={<Cadastro/>}/>
+        <Route path="/julio" element={<Julio/>}/>
       </Routes>
     </BrowserRouter>
   )
