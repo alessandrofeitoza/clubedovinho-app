@@ -1,3 +1,4 @@
+import { DaviComponent } from "./components/davi";
 import Cadastro from "./pages/Cadastro";
 import Listar from "./pages/Listar";
 import Ronney from "./pages/Ronney";
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/listar" element={<Listar/>}/>
         <Route path="/cadastro" element={<Cadastro/>}/>
         <Route path="/ronney" element={<Ronney/>}/>
+        <Route path="/davi" element={<DaviComponent />} />
       </Routes>
     </BrowserRouter>
   )
