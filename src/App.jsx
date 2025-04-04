@@ -1,5 +1,6 @@
 import Cadastro from "./pages/Cadastro";
 import Listar from "./pages/Listar";
+import Iasmin from "./pages/Iasmin";
 
 import { 
   BrowserRouter, 
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/" element={<h1>Ola mundo</h1>}/>
         <Route path="/listar" element={<Listar/>}/>
         <Route path="/cadastro" element={<Cadastro/>}/>
+        <Route path="/iasmin" element={<Iasmin/>}/>
       </Routes>
     </BrowserRouter>
   )
