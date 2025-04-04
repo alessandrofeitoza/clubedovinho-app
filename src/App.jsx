@@ -6,6 +6,7 @@ import {
   Route,
   Routes
 } from "react-router-dom";
+import Isabele from "./pages/Pagina-Isabele";
 
 export default function App() {
   return (
@@ -14,6 +15,8 @@ export default function App() {
         <Route path="/" element={<h1>Ola mundo</h1>}/>
         <Route path="/listar" element={<Listar/>}/>
         <Route path="/cadastro" element={<Cadastro/>}/>
+        <Route path="/isabele" element={<Isabele/>}>
+        </Route>
       </Routes>
     </BrowserRouter>
   )
