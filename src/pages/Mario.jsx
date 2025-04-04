@@ -4,4 +4,4 @@ export default function Mario(){
             Olá me chamo Mário
         </div>
     )
-}
+};

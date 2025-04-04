@@ -1,6 +1,6 @@
 import Cadastro from "./pages/Cadastro";
 import Listar from "./pages/Listar";
-
+import Mario from "./pages/Mario";
 import { 
   BrowserRouter, 
   Route,
