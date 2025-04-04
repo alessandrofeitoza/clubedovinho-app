@@ -15,6 +15,7 @@ export default function App() {
         <Route path="/" element={<h1>Ola mundo</h1>}/>
         <Route path="/listar" element={<Listar/>}/>
         <Route path="/cadastro" element={<Cadastro/>}/>
+        <Route path="/jorge" element={<Jorge/>}/>
         <Route path="/davi" element={<DaviComponent />} />
       </Routes>
     </BrowserRouter>
