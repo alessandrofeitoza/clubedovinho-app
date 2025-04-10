@@ -10,8 +10,12 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+h3{
+    padding-left: 15px;
+}
 p{
-    size: 12px;
+    padding-left: 15px;
+    font-size: 14px;
 }
 .white{
     color: #ffffff;

@@ -1,4 +1,5 @@
 import foto from "./img/iasmin.png"
+import {Card} from "@mui/material";
 import "./styles.css";
 
 
@@ -7,11 +8,11 @@ export default function Iasmin() {
         <div>
             <div className="perfil">
                 <div>
-                    <img  width= "100px" src={foto}/>
-                </div>
-                <div>
                     Hi, my name is <br/>
                     <span className="white">Iasmin Oliveira e Sena</span>
+                </div>
+                <div>
+                    <img  width= "100px" src={foto}/>
                 </div>
             </div>
             <div>
@@ -19,6 +20,38 @@ export default function Iasmin() {
                 <p>
                 I love mixing graphic design with front-end to build beautiful, practical, and user-friendly interfaces. With a solid background in design and dev, I focus on the details to make everything smooth and intuitive. I'm always keeping up with trends and enjoy turning ideas into creative, functional projects.
                 </p>
+
+                <h3>Services</h3>
+                <div>
+                    <div>
+                        <h5>Test analyst</h5>
+                        <p>
+                            - Test case writing <br/>
+                            - Usability testing <br/>
+                            - Requirements analysis <br/>
+                            - Develop a test plan</p>
+                    </div>
+                    <div>
+                        <h5>Full Stack developer</h5>
+                        <p>
+                            - Creation of responsive website <br/>
+                            - HTML, CSS e JavaScript <br/>
+                            - Website performance & accessibility optimization
+                        </p>
+                    </div>
+                    <div>
+                        <h5>User experience (UX) design</h5>
+                        <p>
+                            - UI needs research and analysis <br/>
+                            - Wireframing & prototyping <br/>
+                            - User testing & interations to improve overall experience
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Technical support</h5>
+                        <p></p>
+                    </div>
+                </div>
             </div>
 
         </div>
