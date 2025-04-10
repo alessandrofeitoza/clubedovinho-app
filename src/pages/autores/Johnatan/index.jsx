@@ -1,5 +1,5 @@
 import "./styles.css";
-import { Container, Typography, Box, Divider, Chip, Grid, List, ListItem, ListItemText } from '@mui/material';
+import { Container, Typography, Box, Divider, Chip, List, ListItem, ListItemText } from '@mui/material';
 
 
 export default function Johnatan() {
@@ -33,13 +33,25 @@ export default function Johnatan() {
           </Box>
     
           <Divider textAlign="left"><Chip label="Tecnologias" /></Divider>
-          <Grid container spacing={1} mt={2} mb={4}>
-            {['Java', 'Spring Boot', 'RabbitMQ', 'PostgreSQL', 'AWS', 'Docker'].map((tech) => (
-              <Grid item key={tech}>
-                <Chip label={tech} />
-              </Grid>
-            ))}
-          </Grid>
+          <List sx={{ mt: 2, mb: 4 }}>
+                {[
+                'Java',
+                'Spring Boot',
+                'React',
+                'Next.js',
+                'TypeScript',
+                'RabbitMQ',
+                'PostgreSQL',
+                'Redis',
+                'AWS',
+                'Docker',
+                ].map((tech) => (
+                <ListItem key={tech} disablePadding>
+                    <ListItemText primary={`• ${tech}`} />
+                </ListItem>
+                ))}
+            </List>
+
     
           <Divider textAlign="left"><Chip label="Formação" /></Divider>
           <List>
