@@ -45,7 +45,7 @@ export default function Thiago() {
             <a href="https://github.com/Thiagoarruda09" target="_blank">
                 <div className="botao">
                     <Button size="small" variant="contained" color="primary">
-                    Veja meus repositorios
+                    Veja meu repositorio
                     </Button>
                 </div>
             </a>
