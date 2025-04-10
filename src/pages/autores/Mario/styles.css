@@ -1,3 +1,16 @@
 .nome {
     color: red;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;             
+  }
+
+.avatar {
+    height: 100px;  
+    width: 50px;        
+    height: 50px;
+    border-radius: 50%;
+  }
