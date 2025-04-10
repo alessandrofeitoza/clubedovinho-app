@@ -1,6 +1,6 @@
 import Cadastro from "./pages/Cadastro";
 import Listar from "./pages/Listar";
-import Isabele from ".pages/Isabele";
+import Isabele from "./pages/Pagina-Isabele";
 
 import { 
   BrowserRouter, 
