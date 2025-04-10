@@ -10,7 +10,9 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-
+p{
+    size: 12px;
+}
 .white{
     color: #ffffff;
 }
