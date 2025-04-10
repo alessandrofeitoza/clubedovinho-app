@@ -37,9 +37,6 @@ export default function Johnatan() {
                 {[
                 'Java',
                 'Spring Boot',
-                'React',
-                'Next.js',
-                'TypeScript',
                 'RabbitMQ',
                 'PostgreSQL',
                 'Redis',
