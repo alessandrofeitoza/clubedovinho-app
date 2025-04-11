@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+.page-ronney {
+    $font-main: "Orbitron", sans-serif;
+    $cor-titulos: #4CAF50;
+    $cor-textos: #666;
+    $box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    $background-main: #f4f4f4;
+    $background: #fff;
+
+    font-family: $font-main;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
+    background-color: $background-main;
+
+    /* Container principal */
+    .about-container {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        min-height: 100vh;
+        align-items: center;
+    }
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: $background;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: $box-shadow;
+        width: 80%;
+        max-width: 1000px;
+        gap: 20px;
+    }
+
+    /* Avatar */
+    .avatar {
+        flex: 1;
+        min-width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            box-shadow: $box-shadow;
+        }
+    }
+
+
+    /* About content */
+    .about-content {
+        flex: 2;
+        min-width: 300px;
+
+        h1 {
+            font-size: 2.5rem;
+            color: $cor-titulos;
+            margin-bottom: 10px;
+        }
+
+        span {
+            display: block;
+            font-size: 1.2rem;
+            color: $cor-textos;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: $cor-textos;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+    }
+
+
+
+
+    .skills {
+        margin-top: 20px;
+
+        h3 {
+            font-size: 1.5rem;
+            color: $cor-titulos;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+
+            li {
+                font-size: 1.1rem;
+                margin-bottom: 8px;
+                color: $cor-textos;
+            }
+        }
+    }
+
+
+
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+        .main {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .avatar {
+            margin-bottom: 20px;
+        }
+
+        .about-content {
+            max-width: 500px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .about-content h1 {
+            font-size: 2rem;
+        }
+
+        .about-content span {
+            font-size: 1rem;
+        }
+
+        .skills ul li {
+            font-size: 1rem;
+        }
+    }
+}
