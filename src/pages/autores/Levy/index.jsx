@@ -1,9 +1,9 @@
-import "./styles.css";
+import "./styles.css";  
 
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import eu from "./img/eu.png"
-import img from "./img/front-end.png"
+import eu from "./img/eu.png";
+import img from "./img/front-end.png";
 export default function Levy() {
     return (
         <div className="background">
