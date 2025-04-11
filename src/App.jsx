@@ -1,6 +1,7 @@
 import { DaviComponent } from "./components/davi";
 import Cadastro from "./pages/Cadastro";
 import Listar from "./pages/Listar";
+import "./styles.css";
 
 import { 
   BrowserRouter, 
