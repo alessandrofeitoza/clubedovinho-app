@@ -12,7 +12,19 @@ body{
 }
 h3{
     padding-left: 15px;
+    color: #f8f8f8
 }
+
+.conteiner{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    border-radius: 5px;
+    background-color: #63DCC6;
+}
+
 p{
     padding-left: 15px;
     font-size: 14px;
