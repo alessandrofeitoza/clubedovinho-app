@@ -1,3 +1,57 @@
-.nome {
-    color: red;
-}
+.curriculo-container {
+    height: 95vh;
+    background-color: #eaa7a7;
+    width: 95%; /* Largura fixa do card */
+    margin: 20px auto; /* Centraliza o card na página */
+    border: 1px solid #ccc; /* Adiciona uma borda cinza clara */
+    border-radius: 8px; /* Arredonda as bordas do card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    overflow: hidden; /* Garante que o conteúdo não vaze do card */
+    font-family: sans-serif; /* Define a fonte padrão */
+  }
+  
+  .perfil {
+    display: flex; /* Usa flexbox para alinhar os elementos */
+    align-items: center; /* Alinha os itens verticalmente */
+    padding: 20px; /* Adiciona espaçamento interno */
+    background-color: #832323; /* Define a cor de fundo */
+  }
+  
+  .foto-perfil {
+    width: 100px; /* Define a largura da foto */
+    height: 80px; /* Define a altura da foto */
+    border-radius: 50%; /* Torna a foto circular */
+    object-fit: cover; /* Garante que a foto cubra todo o espaço */
+    margin-right: 20px; /* Adiciona espaçamento à direita da foto */
+  }
+  
+  .informacoes-perfil h1 {
+    font-size: 1.3em; /* Define o tamanho da fonte do nome */
+    margin: 5px; /* Adiciona espaçamento abaixo do nome */
+    color: #ccc;
+  }
+  
+  .informacoes-perfil h2 {
+    font-size: 1em; /* Define o tamanho da fonte do cargo */
+    color: #eaa7a7; /* Define a cor do texto do cargo */
+    margin-right: 10px;
+  }
+  
+  .sobre-mim {
+    padding: 30px; /* Adiciona espaçamento interno */
+  }
+  
+  .sobre-mim h2 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+  }
+  h1{
+    color: white;
+  }
+
+
+  @media screen and (width >= 426px) {
+    .curriculo-container {
+        width: 70%;
+    }
+  }
