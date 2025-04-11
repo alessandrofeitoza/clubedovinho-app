@@ -7,6 +7,8 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import CardActionArea from '@mui/material/CardActionArea';
 import CardActions from '@mui/material/CardActions';
+import Carousel from '../../../components/Carousel'
+
 
 export default function Thiago() {
     return (
@@ -51,6 +53,13 @@ export default function Thiago() {
             </a>
                   </CardActions>
                 </Card>
+             
+
+                <div className="carousel">
+                <Typography gutterBottom variant="h5" component="div">
+               Meus projetos
+              </Typography><Carousel/></div>
         </div>
+           
     )
 }
