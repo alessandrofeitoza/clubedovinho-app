@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./instyles.css";
 import foto from "./img/foto-edu-comprimida.jpg";
 
 export default function Eduardo() {
