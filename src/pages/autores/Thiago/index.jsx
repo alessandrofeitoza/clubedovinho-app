@@ -57,7 +57,7 @@ export default function Thiago() {
 
                 <div className="carousel">
                 <Typography gutterBottom variant="h5" component="div">
-               Meus projetos
+               Meus projetoss
               </Typography><Carousel/></div>
         </div>
            
