@@ -2,12 +2,13 @@ import {Button, CardContent, Icon} from "@mui/material";
 import {ArrowRight} from "@mui/icons-material";
 import minhaFotoDeMim from "./img/foto.jfif";
 
-import "./styles.css";
+import "./styles.scss";
+
 
 export default function Isabele() {
     return (
         
-        <div>
+        <div className="page-isabele">
             
             <Button color="error" variant="contained">
                 Portfolie<ArrowRight/>
@@ -26,6 +27,5 @@ export default function Isabele() {
         
         </div>  
         
-
     )
 }
