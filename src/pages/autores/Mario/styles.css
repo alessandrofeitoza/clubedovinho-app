@@ -1,3 +1,46 @@
-.nome {
-    color: red;
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 16px;       
+}
+.text-container {
+    display: flex;
+    flex-direction: column;  
+    margin-right: 16px;     
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1 {
+    margin: 0;  
+    padding: 0; 
+}
+
+p {
+    margin: 0;  
+    padding: 0; 
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;  /* Remove margens padrão */
+    padding: 0; /* Remove paddings padrão */
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e0e0e0;
+}
+
+button {
+    margin: 0 10px;
 }
