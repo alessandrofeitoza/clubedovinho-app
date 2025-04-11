@@ -1,6 +1,7 @@
 import "./styles.css";
 import React from 'react';
 import fotosaulo from "./img/perfil-saulo.jpg"
+import { Link } from 'react-router-dom';
 
 
 export default function Saulo() {
@@ -17,7 +18,9 @@ export default function Saulo() {
                 Sua vasta experiência já fez com que acumulasse apresentações no Festival Villa Mix, Reveillon Colosso Lake Lounge, Casacor Ceará, Camarote Mucuripe Fortal, Dragão Fashion e outros grandes eventos.
             </h1>
 
-
+        <Link to="/https://soundcloud.com/djsaulotorres/recsession7djsaulotorres">
+        <button className="meu-botao">Sound Clound Dj Saulo Torres</button>
+      </Link>
         </div>
     
     )
