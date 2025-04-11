@@ -1,3 +1,118 @@
-.nome {
-    color: red;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+  .container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #008000;
+    margin-bottom: 16px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 16px;
+    color: #666;
+    margin-top: 4px;
+  }
+  
+  .section {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  .section h3 {
+    color: #008000;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .skills {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .skills li {
+    background-color: #e0f0ff;
+    color: #008000;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+  }
+  
+  .projects a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 18px;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .projects a:hover {
+    background-color: #e9f0ff;
+    border-color: #008000;
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .projects svg {
+    min-width: 24px;
+    min-height: 24px;
+  }
+  
+  
+  @media (max-width: 480px) {
+    .profile-photo {
+      width: 100px;
+      height: 100px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    h2 {
+      font-size: 14px;
+    }
+  
+    .section h3 {
+      font-size: 16px;
+    }
+  
+    .skills li {
+      font-size: 12px;
+    }
+  }
+  
