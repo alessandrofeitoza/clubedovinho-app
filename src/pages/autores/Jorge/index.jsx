@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import { ArrowRight } from "@mui/icons-material";
-import styles from "./styles.module.css";
+import styles from "./styles.module.scss";
 import foto from "./img/foto.jpg";
 
 export default function ProfileCard() {
