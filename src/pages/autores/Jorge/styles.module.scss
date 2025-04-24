@@ -1,4 +1,11 @@
+
 .profileCard {
+
+    $color-cinza-medio: #666;
+    $color-verde: #4CAF50;
+    $color-cinza-escuro: #333;
+    $color-azul-claro: #1976d2;
+
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
@@ -6,7 +13,6 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 
     .profilePictureSection {
         display: flex;
@@ -49,7 +55,7 @@
     
     .infoLabel {
         font-size: 0.9rem;
-        color: #666;
+        color: $color-cinza-medio;
         margin-bottom: 4px;
     }
     
@@ -72,14 +78,14 @@
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background-color: #4CAF50;
+        background-color: $color-verde;
     }
     
     .aboutText {
         margin: 0;
         font-size: 0.95rem;
         line-height: 1.4;
-        color: #333;
+        color: $color-cinza-escuro;
     }
     
     .profileButton {
@@ -87,6 +93,6 @@
         text-transform: none !important;
         border-radius: 8px !important;
         padding: 8px 16px !important;
-        background-color: #1976d2 !important;
+        background-color: $color-azul-claro;
     }
 }
