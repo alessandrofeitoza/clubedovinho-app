@@ -1,4 +1,4 @@
-import "./styles.css";  
+import "./styles.scss";  
 
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -6,6 +6,7 @@ import eu from "./img/eu.png";
 import img from "./img/front-end.png";
 export default function Levy() {
     return (
+        <div className="page-levy">
         <div className="background">
             <p>Um pouco sobre mim</p>
 
@@ -45,5 +46,7 @@ export default function Levy() {
 
             </div>
         </div>
+        </div>
+
     )
 }
