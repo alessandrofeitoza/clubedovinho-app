@@ -1,7 +1,8 @@
 import daviFoto from "./assets/imgs/davi-perfil.webp";
 import instagramIcon from "./assets/icons/insta-icon.png";
 import githubIcon from "./assets/icons/github-icon.png";
-import "./Style.scss";
+import "./styles.scss";
+
 
 export default function Davi() {
   return (
@@ -18,9 +19,10 @@ export default function Davi() {
             <li>
               <a
                 href="https://www.instagram.com/daviiisousa19/"
-                target="_blanck"
+                target="_blank"
               >
                 <img
+                  loading="lazy"
                   className="instIcon"
                   src={instagramIcon}
                   alt="icone do insta"
@@ -28,8 +30,8 @@ export default function Davi() {
               </a>
             </li>
             <li>
-              <a href="https://github.com/daviiisousa" target="_blanck">
-                <img src={githubIcon} alt="icone gitHub" />
+              <a href="https://github.com/daviiisousa" target="_blank">
+                <img src={githubIcon} alt="icone gitHub" loading="lazy" />
               </a>
             </li>
           </ul>

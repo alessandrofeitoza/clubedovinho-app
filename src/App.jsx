@@ -21,7 +21,7 @@ import Wuller from "./pages/autores/Wuller";
 import Johnatan from "./pages/autores/Johnatan";
 import Feitoza from "./pages/autores/Feitoza";
 import Ronney from "./pages/autores/Ronney";
-import Davi from "./pages/autores/davi";
+import Davi from "./pages/autores/Davi";
 
 export default function App() {
   return (
