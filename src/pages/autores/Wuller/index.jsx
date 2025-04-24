@@ -1,16 +1,16 @@
-import "./styles.css";
+import "./styles.scss";
 import foto from "../Wuller/img/euminerva.jpeg";
 import { ArrowRight } from "@mui/icons-material";
 
 export default function Wuller() {
     return (
-        <div>
+        <div className="page-Wuller">
             <div className="curriculo-container">
                 <div className="perfil">
                     <img src={foto} width="100px" alt="Minha Foto" className="foto-perfil" />
-                    <h1>Wuller Barros</h1>
+                    <h1 className="eu">Wüller Barros</h1>
                 </div>
-                <p>Estagiario de Suporte Tecnico</p>
+                <p className="cargo">Estagiario de Suporte Tecnico</p>
                
 
                 <div className="sobre-mim">

@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+.page-Wuller{
+
+  $love:#704fc4;
+  $borde:#ccc;
+  $boblle:#81bbde;
+  $rosi:#eaa7a7;
+
 .curriculo-container {
-    height: 95vh;
-    background-color: #eaa7a7;
-    width: 95%; /* Largura fixa do card */
+    height: 85vh;
+    background-image:url(./img/togepi.jpg) ;
+    width: 400px; /* Largura fixa do card */
     margin: 20px auto; /* Centraliza o card na página */
-    border: 1px solid #ccc; /* Adiciona uma borda cinza clara */
+    border: 1px solid $borde; /* Adiciona uma borda cinza clara */
     border-radius: 8px; /* Arredonda as bordas do card */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
     overflow: hidden; /* Garante que o conteúdo não vaze do card */
@@ -14,7 +23,7 @@
     display: flex; /* Usa flexbox para alinhar os elementos */
     align-items: center; /* Alinha os itens verticalmente */
     padding: 20px; /* Adiciona espaçamento interno */
-    background-color: #832323; /* Define a cor de fundo */
+    background-color:$boblle; /* Define a cor de fundo */
   }
   
   .foto-perfil {
@@ -25,33 +34,42 @@
     margin-right: 20px; /* Adiciona espaçamento à direita da foto */
   }
   
-  .informacoes-perfil h1 {
+  .informacoes-perfil{
+   h1 {
     font-size: 1.3em; /* Define o tamanho da fonte do nome */
     margin: 5px; /* Adiciona espaçamento abaixo do nome */
-    color: #ccc;
+    color:$love;
   }
   
-  .informacoes-perfil h2 {
+   h2 {
     font-size: 1em; /* Define o tamanho da fonte do cargo */
-    color: #eaa7a7; /* Define a cor do texto do cargo */
+    color: $rosi; /* Define a cor do texto do cargo */
     margin-right: 10px;
   }
+}
   
   .sobre-mim {
     padding: 30px; /* Adiciona espaçamento interno */
-  }
   
-  .sobre-mim h2 {
+  
+ h2 {
       font-size: 1.2em;
       margin-bottom: 10px;
+      text-align: center;
+      font-family: "Comic Relief", sans-serif;
   }
-  h1{
-    color: white;
+}
+  .eu{
+    color: #704fc4;
+  }
+  .cargo{
+    text-align: center;
+    font-family: "Comic Relief", sans-serif;
+  }
+  p{
+    font-family: "Comic Relief", sans-serif;
   }
 
 
-  @media screen and (width >= 426px) {
-    .curriculo-container {
-        width: 70%;
-    }
-  }
+  
+}
