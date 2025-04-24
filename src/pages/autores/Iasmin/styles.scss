@@ -2,7 +2,12 @@
 
 .pages-iasmin{
 
-    background-color: #39785d;
+    $verde_escuro: #39785d;
+    $preto: #000000;
+    $verde_claro: #389576;
+    $branco: #f2f2f2;
+
+    background-color: $verde_escuro ;
     font-family: "Poppins", sans-serif;
         
     .perfil{
@@ -13,7 +18,7 @@
 
     h3{
         padding-left: 15px;
-        color: #000000;
+        color: $preto;
     }
 
     h5{
@@ -28,7 +33,7 @@
     
     .card{
         border-radius: 5px;
-        background-color: rgb(56, 149, 118);
+        background-color: $verde_claro;
         width: 49%;
     }
     
@@ -38,7 +43,7 @@
     }
     
     .white{
-        color: #f2f2f2;
+        color: $branco;
     }
 
     .contatos{
@@ -48,11 +53,11 @@
 
     a{
         text-decoration: none;
-        color: #000000;
+        color: $preto;
     }
     .card_contatos{
         border-radius: 5px;
-        background-color: rgb(56, 149, 118);
+        background-color: $verde_claro;
         width: 25%;
         text-align: center;
     }
