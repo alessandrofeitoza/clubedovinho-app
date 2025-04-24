@@ -1,0 +1,28 @@
+.page-feitoza {
+
+    h1 {
+        color: red !important;
+    }
+
+    div {
+        text-align: right;
+    }
+
+    $gray: #333;
+
+    .nome {
+        color: red;
+    }
+    
+    .meus-botoes {
+        button {
+            background-color: $gray;
+            color: white;
+            border: 1px solid black;
+        }
+    }
+    
+    p {
+        color: $gray;
+    }
+}
