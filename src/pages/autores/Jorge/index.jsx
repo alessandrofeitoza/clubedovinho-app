@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import { ArrowRight } from "@mui/icons-material";
 import styles from "./styles.module.scss";
-import foto from "./img/foto.jpg";
+import foto from "./img/jorge.jpg";
 
 export default function Jorge() {
    return (
