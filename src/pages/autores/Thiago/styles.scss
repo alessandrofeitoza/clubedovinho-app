@@ -1,0 +1,65 @@
+
+.pages-thiago {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    $roxo1: #02000D;
+    $roxo2: #090126;
+    $roxo3: #2E0E73;
+    $branco: white;
+  
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(to right, $roxo1, $roxo2, $roxo3);
+  
+    a {
+      text-decoration: none;
+    }
+  
+    .bolhas {
+      width: 110px;
+      height: 110px;
+      margin-left: 15px;
+      border-radius: 100px;
+      opacity: 25%;
+      background-image: linear-gradient(to bottom, $roxo2, $roxo3);
+    }
+  
+    .row {
+      height: 100vh;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      .col {
+        justify-items: center;
+  
+        h2 {
+          color: $roxo3;
+        }
+  
+        h1 {
+          color: $branco;
+        }
+  
+        .spans {
+          display: flex;
+          justify-content: space-between;
+  
+          div {
+            background-color: $roxo2;
+            color: $roxo3;
+            border-radius: 15px;
+            padding: 7px;
+            font-size: 20px;
+          }
+        }
+  
+        img {
+          width: 40%;
+          border-radius: 200px;
+          border: 8px solid $roxo3;
+        }
+      }
+    }
+  }
+  

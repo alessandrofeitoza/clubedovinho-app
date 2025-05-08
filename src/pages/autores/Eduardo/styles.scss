@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.page-eduardo {
+
+  $offwhite: #f2f2f2;
+  $lightblue: #e0f0ff;
+  $green: #008000;
+  $gray: #333;
+  $lightgray: #666;
+
+  .container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: $offwhite;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid $green;
+    margin-bottom: 16px;
+  }
+
+  h1 {
+    font-size: 24px;
+    color: $gray;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 16px;
+    color: $lightgray;
+    margin-top: 4px;
+  }
+
+  .section {
+    margin-top: 30px;
+    text-align: left;
+    
+    h3 {
+      color: $green;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+  }
+
+  .skills {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+    li {
+      background-color: $lightblue;
+      color: $green;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 18px;
+      background-color: $offwhite;
+      border: 2px solid $lightgray;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 500;
+      color: $gray;
+      font-size: 16px;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: $lightblue;
+        border-color: $green;
+        transform: scale(1.02);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      }
+    }
+
+    svg {
+      min-width: 24px;
+      min-height: 24px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .profile-photo {
+      width: 100px;
+      height: 100px;
+    }
+
+    h1 {
+      font-size: 20px;
+    }
+
+    h2 {
+      font-size: 14px;
+    }
+
+    .section h3 {
+      font-size: 16px;
+    }
+
+    .skills li {
+      font-size: 12px;
+    }
+  }
+}
