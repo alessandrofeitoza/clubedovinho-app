@@ -7,6 +7,7 @@ import {
   Route,
   Routes
 } from "react-router-dom";
+
 import Rachel from "./pages/autores/Rachel";
 import Mario from "./pages/autores/Mario";
 import Isabele from "./pages/autores/Isabele";

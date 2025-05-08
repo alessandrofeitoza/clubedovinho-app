@@ -1,98 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-.profileCard {
+.jorge {
+   $color-cinza-medio: #666;
+   $color-verde: #4caf50;
+   $color-cinza-escuro: #333;
+   $color-azul-claro: #1976d2;
+   font-family: "Roboto", sans-serif;
 
-    $color-cinza-medio: #666;
-    $color-verde: #4CAF50;
-    $color-cinza-escuro: #333;
-    $color-azul-claro: #1976d2;
+   max-width: 400px;
+   margin: 0 auto;
+   padding: 20px;
+   border-radius: 12px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   background-color: white;
+   font-family: "Roboto", sans-serif;
 
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    background-color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   .profilePictureSection {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 24px;
+   }
 
-    .profilePictureSection {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 24px;
-    }
-    
-    .profilePicture {
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        object-fit: cover;
-        margin-bottom: 16px;
-        border: 3px solid #f0f0f0;
-    }
-    
-    .pictureActions {
-        display: flex;
-        gap: 8px;
-    }
-    
-    .actionButton {
-        text-transform: none !important;
-        font-size: 0.8rem !important;
-        border-radius: 20px !important;
-        padding: 4px 12px !important;
-    }
-    
-    .profileInfo {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-    }
-    
-    .infoSection {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .infoLabel {
-        font-size: 0.9rem;
-        color: $color-cinza-medio;
-        margin-bottom: 4px;
-    }
-    
-    .infoValue {
-        margin: 0;
-        font-size: 1.1rem;
-        font-weight: 500;
-    }
-    
-    .statusValue {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        margin: 0;
-        font-size: 1rem;
-    }
-    
-    .statusDot {
-        display: inline-block;
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        background-color: $color-verde;
-    }
-    
-    .aboutText {
-        margin: 0;
-        font-size: 0.95rem;
-        line-height: 1.4;
-        color: $color-cinza-escuro;
-    }
-    
-    .profileButton {
-        margin-top: 16px !important;
-        text-transform: none !important;
-        border-radius: 8px !important;
-        padding: 8px 16px !important;
-        background-color: $color-azul-claro;
-    }
+   .profilePicture {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 16px;
+      border: 3px solid #f0f0f0;
+   }
+
+   .pictureActions {
+      display: flex;
+      gap: 8px;
+   }
+
+   .actionButton {
+      text-transform: none !important;
+      font-size: 0.8rem !important;
+      border-radius: 20px !important;
+      padding: 4px 12px !important;
+   }
+
+   .profileInfo {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+   }
+
+   .infoSection {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .infoLabel {
+      font-size: 0.9rem;
+      color: $color-cinza-medio;
+      margin-bottom: 4px;
+   }
+
+   .infoValue {
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: 500;
+   }
+
+   .statusValue {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0;
+      font-size: 1rem;
+   }
+
+   .statusDot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: $color-verde;
+   }
+
+   .aboutText {
+      margin: 0;
+      font-size: 0.95rem;
+      line-height: 1.4;
+      color: $color-cinza-escuro;
+   }
+
+   .profileButton {
+      margin-top: 16px !important;
+      text-transform: none !important;
+      border-radius: 8px !important;
+      padding: 8px 16px !important;
+      background-color: $color-azul-claro;
+   }
 }
