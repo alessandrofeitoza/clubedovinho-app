@@ -5,7 +5,7 @@ import foto from "./img/foto.jpg";
 
 export default function Jorge() {
    return (
-      <section className={styles.jorge}>
+      <section className={styles["page-Jorge"]}>
          <div className={styles.profilePictureSection}>
             <img src={foto} alt="Profile" className={styles.profilePicture} />
             <div className={styles.pictureActions}>
