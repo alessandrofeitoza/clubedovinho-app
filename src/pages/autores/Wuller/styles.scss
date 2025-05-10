@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+.page-Wuller{
+
+  $love:#704fc4;
+  $borde:#ccc;
+  $boblle:#81bbde;
+  $rosi:#eaa7a7;
+
+.curriculo-container {
+    height: 85vh;
+    background-image:url(./img/togepi.jpg) ;
+    width: 400px; /* Largura fixa do card */
+    margin: 20px auto; /* Centraliza o card na página */
+    border: 1px solid $borde; /* Adiciona uma borda cinza clara */
+    border-radius: 8px; /* Arredonda as bordas do card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    overflow: hidden; /* Garante que o conteúdo não vaze do card */
+    font-family: sans-serif; /* Define a fonte padrão */
+  }
+  
+  .perfil {
+    display: flex; /* Usa flexbox para alinhar os elementos */
+    align-items: center; /* Alinha os itens verticalmente */
+    padding: 20px; /* Adiciona espaçamento interno */
+    background-color:$boblle; /* Define a cor de fundo */
+  }
+  
+  .foto-perfil {
+    width: 100px; /* Define a largura da foto */
+    height: 80px; /* Define a altura da foto */
+    border-radius: 50%; /* Torna a foto circular */
+    object-fit: cover; /* Garante que a foto cubra todo o espaço */
+    margin-right: 20px; /* Adiciona espaçamento à direita da foto */
+  }
+  
+  .informacoes-perfil{
+   h1 {
+    font-size: 1.3em; /* Define o tamanho da fonte do nome */
+    margin: 5px; /* Adiciona espaçamento abaixo do nome */
+    color:$love;
+  }
+  
+   h2 {
+    font-size: 1em; /* Define o tamanho da fonte do cargo */
+    color: $rosi; /* Define a cor do texto do cargo */
+    margin-right: 10px;
+  }
+}
+  
+  .sobre-mim {
+    padding: 30px; /* Adiciona espaçamento interno */
+  
+  
+ h2 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+      text-align: center;
+      font-family: "Comic Relief", sans-serif;
+  }
+}
+  .eu{
+    color: #704fc4;
+  }
+  .cargo{
+    text-align: center;
+    font-family: "Comic Relief", sans-serif;
+  }
+  p{
+    font-family: "Comic Relief", sans-serif;
+  }
+
+
+  
+}
