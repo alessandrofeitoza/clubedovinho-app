@@ -1,0 +1,70 @@
+.page-Joao{
+    
+    $primary-color: #ffa500;
+    $background-color: #121212;
+    $card-background: #1e1e1e;
+    $text-color: #ffffff;
+    $icon-color: #ffa500;
+    
+    .container {
+      min-height: 100vh;
+      background-color: $background-color;
+      padding: 4rem;
+      color: $text-color;
+    }
+    
+    .profile-card {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 4rem;
+      background-color: $card-background;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+        
+    .name {
+      color: $primary-color;
+    }
+    
+    .section-title {
+      color: $primary-color;
+    }
+    
+    .skills {
+      margin-top: 2rem;
+    }
+    
+    .icon {
+      color: $primary-color;
+    }
+    
+    .experiences {
+      margin-top: 3rem;
+    
+      .experience-item {
+        padding: 1rem;
+        margin-bottom: 1rem;
+        background-color: #2c2c2c;
+        color: $text-color;
+    
+        .experience-title {
+          color: $primary-color;
+        }
+      }
+    }
+    
+    .awards {
+      margin-top: 3rem;
+    }
+    
+    .social-icon {
+      color: $icon-color;
+      transition: color 0.3s;
+    
+      &:hover {
+        color: lighten($icon-color, 20%);
+      }
+    }
+}    
+
+
