@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.page-rachel {
+    text-align: center;
+    $gray-color: #f8f8f8;
+    $barra-color: #dddddd;
+    $subtitlo-color: #BCBCBC;
+    $color-title: gray;
+    $cor-circle: #485643;
+
+    .imagem{
+
+        margin-top: 5px;
+        border-radius: 50px;
+        
+    }
+    
+    .pagina-rachel {
+    
+        font-family: "Poppins", sans-serif;
+        justify-content: space-around;
+        text-align: center;
+        $gray-color: #f8f8f8;
+    
+    }
+   
+
+    
+    
+    .icons{
+    
+        justify-content: space-between;
+        display: flex;
+       
+    }
+    
+    .barra{
+    
+        min-height: 50px;
+        display: flex;
+        justify-content: space-around;
+        $barra-color: #dddddd;
+       
+    }
+    
+    .conteudo {
+    
+        
+    }
+    
+    
+    .subtitulo {
+    
+        $subtitlo-color: #BCBCBC;
+    }
+    
+    .titulo{
+        
+        $color-title: gray;
+    }
+    
+    .addcircle{
+    
+        font-size: 3rem !important;
+        $cor-circle: #485643;
+    
+    }
+
+
+
+
+
+
+}
+
+
