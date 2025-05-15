@@ -22,6 +22,7 @@ import Wuller from "./pages/autores/Wuller";
 import Johnatan from "./pages/autores/Johnatan";
 import Feitoza from "./pages/autores/Feitoza";
 import Ronney from "./pages/autores/Ronney";
+import Carrinho from "./pages/Carrinho";
 
 export default function App() {
   return (
@@ -44,8 +45,9 @@ export default function App() {
         <Route path="/autores/wuller" element={<Wuller/>}/>
         <Route path="/autores/ronney" element={<Ronney/>}/>
         <Route path="/autores/feitoza" element={<Feitoza/>}/>
+        <Route path="/pages/Carrinho" element={<Carrinho/>}/>
 
-        <Route path="/*" element={<h1>Erro 404: pagina nao encontrada</h1>} />
+       
       </Routes>
     </BrowserRouter>
   )
